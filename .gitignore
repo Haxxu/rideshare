@@ -1,0 +1,21 @@
+# Build output and local IDE files
+**/target/
+**/build/
+.idea/
+.vscode/
+*.iml
+*.log
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS files
+.DS_Store
+Thumbs.db
